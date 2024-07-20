@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-      my first app
+      my first apps
     </div>
   )
 }
