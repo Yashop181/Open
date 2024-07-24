@@ -9,11 +9,11 @@ const PORT = process.env.PORT;
 
 app.use(express.json());
 const dbUrl = process.env.MONGO_URL
-const routes = require('./routes/myRotes')
+const routes = require('./routes/myRoutes')
 
 mongoose.connect(dbUrl);
 
-app.use('/bottle',routes)
+app.use('/student',routes)
 
 
 app.listen(PORT ,()=>{
